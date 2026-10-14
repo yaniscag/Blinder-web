@@ -5,6 +5,10 @@ html{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Calibri, sans-serif;
 }
 
@@ -16,4 +20,14 @@ h1{
   font-variation-settings:
     'SOFT' 0,
     'WONK' 0;
+}
+
+#idEntry{
+    text-align: center;
+    display: flex;
+    gap: 5px;
+}
+
+#playlistId{
+    flex-grow: 1;
 }
