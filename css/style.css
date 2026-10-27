@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  background-color: #fdf7f0;
+  color: #435966;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Calibri, sans-serif;
+}
+
+h1 {
+  font-family: Fraunces, serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+#idEntry {
+  text-align: center;
+  display: flex;
+  gap: 5px;
+}
+
+#playlistId {
+  flex-grow: 1;
+}
